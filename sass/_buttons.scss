@@ -1,0 +1,51 @@
+//BUTTON STYLES
+//------------------
+
+//Base style
+//------------
+
+//core
+.btn {
+}
+
+.btn:hover {
+}
+
+.btn:focus {
+	@include tab-focus;
+}
+
+.btn:active {
+
+}
+
+// Disabled state
+.btn.disabled,
+.btn[disabled] {
+}
+
+//Button sizes
+//------------
+
+.btn-large {
+}
+
+.btn-small {
+}
+
+.btn-mini {
+}
+
+.search-btn{
+	font: 14px/20px Arial;
+	color: #363a40;
+	float: left;
+	margin-left: -1px;
+	height: 38px;
+	padding: 5px 19px;
+	@include gradient-vertical(#fff, #ececec);
+	@include box-shadow(inset 0 0 0 1px #adcdf9);
+	border: 3px solid rgba(121,168,231,.15);
+	border-left: none;
+	@include border-radius(0 6px 6px 0);
+}

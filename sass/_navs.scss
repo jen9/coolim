@@ -1,0 +1,43 @@
+//
+//Navs
+//---------------------------------------------------
+
+//Base
+//-------------
+
+.nav {
+	margin: 0;
+}
+
+.search-nav{
+	@include clearfix;
+	margin-left:13px;	
+	& li {
+		position: relative;
+		float: left;
+		font: 12px/14px Arial, sans-serif;
+		margin: 8px;
+		& a{
+			display: block;
+			color: #79a8e7;
+			border-bottom: 1px dotted #79a8e7;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+		&.selected::before, &::after {
+	    	content: "";
+	    	position: absolute;
+	  	}
+	  	&.selected::before{
+		    bottom: -9px;
+		    left: 50%;
+		    margin-left: -8px;
+		    height: 0;
+		    width: 0;
+		    border: 8px solid;
+		    border-color: transparent transparent rgba(121,168,231,.15);
+		    //border-bottom-width: 10px;
+	  	}
+	}
+}

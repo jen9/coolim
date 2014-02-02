@@ -1,0 +1,13 @@
+@import "variables";
+@import "mixins";
+
+@import "ie-fix";
+
+.search-input {
+	border: 2px solid #aaaaff;
+	box-shadow: none;
+}
+.search-btn {
+	height: 31px;
+	border: 1px solid #aaaaff;
+}

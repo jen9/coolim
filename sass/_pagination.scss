@@ -1,0 +1,67 @@
+//PAGINATION
+//_____________
+
+.pagination {
+	margin-top: 10px;
+	margin-bottom: 20px; 
+	font-size: 12px;
+	position: relative;
+	/* padding: 0 105px; */
+	display: block;
+	@include border-radius(3px);
+	.pagination-pages {
+		width: 285px;
+		display: block;
+		@include clearfix();
+		margin: 1px auto 0;
+	}
+	.active {
+		color: #363a40;
+		border: 1px solid #adcdf9;
+		@include border-radius(4px);
+		text-decoration: none;
+		@include gradient-vertical(#fff, #ececec);
+	}
+	.disabled {
+		color: #667;
+		border: 1px solid #adcdf9;
+		@include border-radius(4px);
+		text-decoration: none;
+		@include gradient-vertical(#fff, #ececec);
+	}
+	.active-page {
+		text-decoration: none;
+		@include box-shadow(inset 0 0 0 1px #adcdf9);
+		border: 3px solid rgba(121,168,231,.15);
+		margin-top: -4px;
+		@include border-radius(6px);
+		&::before{
+			position: absolute;
+			content: "";
+		    top: -15px;
+		    left: 50%;
+		    margin-left: -6px;
+		    height: 0;
+		    width: 0;
+		    border: 6px solid;
+		    border-color: transparent transparent rgba(121,168,231,.15);
+	  	}
+	}
+	.left-arrow{
+		float: left;
+	}
+	.right-arrow{
+		float: right;
+	}
+	a, span{
+		position: relative;
+		color: #6293df;
+		float: left;
+		padding: 5px 9px;
+		margin-right: 4px;
+		text-decoration: underline;
+	}
+	a:hover, span:hover {
+		cursor: pointer;
+	}
+}

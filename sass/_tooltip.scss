@@ -1,0 +1,17 @@
+.search-tooltip {
+	background-color: #ffef77;
+	position: relative;
+	@include border-radius(4px);
+	padding: 8px 20px;
+	color: #564e12;
+	font-size: 12px;
+	margin-top: 10px;
+	&::before {
+		content: "";
+		position: absolute;
+		top: -15px;
+		left: 24px;
+		border: 8px solid;
+		border-color: transparent transparent #ffef77;
+	}
+}

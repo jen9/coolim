@@ -1,0 +1,30 @@
+select:focus,
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="search"]:focus {
+  outline: thin dotted \9 !important;
+  /*ie6-9*/ }
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-top: 1px \9 !important;
+  /* IE8-9 */ }
+
+.row,
+.container,
+.form-horizontal .control-group,
+.nav-tabs,
+.navbar,
+.navbar-inner {
+  *zoom: 1; }
+
+.search-input {
+  border: 2px solid #aaaaff;
+  box-shadow: none; }
+
+.search-btn {
+  height: 31px;
+  border: 1px solid #aaaaff; }

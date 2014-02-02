@@ -1,0 +1,33 @@
+//Forms
+//----
+form {
+  margin: 0 0 $baseLineHeight;
+}
+
+input,
+button {
+  font-family: $baseFontFamily;
+}
+
+.search-wrapper {
+	position: relative;
+}
+.search-input {
+	@include box-shadow(inset 0 0 0 1px #adcdf9);
+	border: 3px solid rgba(121,168,231,.15);
+	border-right: none;  
+	font: 14px/26px Arial;
+	color: #363a40;
+	height: 26px;
+	padding: 3px 6px;
+	width: 245px;
+	float: left;
+	@include border-radius(6px 0px 0px 6px);
+	&:focus {
+		@include box-shadow(inset 0 0 2px 1px darken(#adcdf9,10%));
+		outline: none;
+	}
+}
+.no-boxshadow .search-input {
+	border: 3px solid #79A8E7;
+}

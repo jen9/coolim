@@ -1,0 +1,43 @@
+.btn {
+  *display: inline !important;
+  *zoom: 1;
+  *margin-left: .3em; }
+  .btn:first-child {
+    *margin-left: 0; }
+
+audio,
+canvas,
+video {
+  *display: inline !important;
+  *zoom: 1; }
+
+input[type="radio"],
+input[type="checkbox"] {
+  *margin-top: 0; }
+
+button.btn,
+input[type="submit"].btn {
+  *padding-top: 2px;
+  *padding-bottom: 2px; }
+  button.btn.btn-large,
+  input[type="submit"].btn.btn-large {
+    *padding-top: 7px;
+    *padding-bottom: 7px; }
+  button.btn.btn-small,
+  input[type="submit"].btn.btn-small {
+    *padding-top: 3px;
+    *padding-bottom: 3px; }
+  button.btn.btn-mini,
+  input[type="submit"].btn.btn-mini {
+    *padding-top: 1px;
+    *padding-bottom: 1px; }
+
+.navbar {
+  *position: relative;
+  *z-index: 2; }
+
+.footer-social li,
+i.icon-language,
+.footer-nav li {
+  *display: inline !important;
+  *zoom: 1; }

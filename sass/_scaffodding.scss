@@ -1,0 +1,22 @@
+// STRUCTURAL LAYOUT
+// -----------------
+body {
+  background: #fff;
+  font-family: $baseFontFamily;
+  color: $textColor;
+}
+
+
+// LINKS
+// -----
+
+a {
+  color: $linkColor;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $linkColorHover;
+  text-decoration: underline;
+}
+

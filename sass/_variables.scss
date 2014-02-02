@@ -1,0 +1,47 @@
+//Grid
+//----
+
+$gridColumns:         15 !default;
+$gridColumnsWidth:    44px !default;
+$gridGutterWidth:     20px !default;
+
+$logo:   			  url("../image/logo-b.png") no-repeat !default;
+$main-bg: 			  url("../image/main-bg.png") repeat-x bottom;
+
+
+// Scaffolding
+// ----
+
+$bodyBackground: 		#fff !default;
+$textColor:      		#333 !default;
+
+
+// Links
+// ----
+
+$linkColor:      		 #08c !default;
+$linkColorHover: 	     darken($linkColor, 15%) !default;
+
+
+// Typography
+// ----
+
+$baseFontFamily: 	     Arial !default;
+$baseLineHeight: 	     20px !default;
+
+
+// Forms
+// -------------------------
+$inputBackground: #fff !default;
+$inputBorder: #ccc !default;
+$inputBorderRadius: 4px !default;
+$inputDisabledBackground: #ccc !default;
+$formActionsBackground: #f5f5f5 !default;
+$inputHeight: $baseLineHeight + 10px; // base line-height + 8px vertical padding + 2px top/bottom border
+
+//Buttons
+//--------------------------
+$btnBackground:        #e6e6e6 !default;
+$btnBorder:            darken($btnBackground, 10%) !default;
+$btnColor:             #ccc !default;
+$btnHover:             lighten($btnBackground, 5%) !default;
